@@ -1,0 +1,17 @@
+Software License Agreement
+My Electron App - Version 1.0.0
+Copyright © 2025 TestAuthor
+
+1. License Grant
+This software is licensed, not sold. By installing and using My Electron App, you agree to the terms of this license.
+
+2. Restrictions
+You may not distribute, modify, or sell this software without prior written permission from the author.
+You may not reverse-engineer, decompile, or attempt to extract the source code.
+3. Disclaimer of Warranty
+This software is provided "AS IS" without warranties of any kind. The author is not responsible for any data loss, damages, or issues caused by using this software.
+
+4. Termination
+The license is valid until terminated. If you violate any terms, your rights under this agreement will automatically terminate.
+
+By clicking "I Agree" during installation, you accept these terms.
