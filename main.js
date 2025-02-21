@@ -25,7 +25,7 @@ const createWindow = () => {
 app.whenReady().then(() => {
   createWindow();
 
-  // Check for updates once at startup
+  // ✅ Check for updates only once at startup
   autoUpdater.checkForUpdatesAndNotify();
 
   app.on("activate", () => {
@@ -43,7 +43,7 @@ app.on("window-all-closed", () => {
 });
 
 // ----------------------
-// AUTO-UPDATE HANDLING
+// ✅ AUTO-UPDATE HANDLING
 // ----------------------
 
 autoUpdater.on("checking-for-update", () => {

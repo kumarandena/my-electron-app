@@ -1,16 +1,12 @@
-const information = document.getElementById("info");
-const updateStatus = document.getElementById("update-status");
 const appVersion = document.getElementById("app-version");
+const updateStatus = document.getElementById("update-status");
 
-// Display Electron, Node.js, and Chrome versions
-// information.innerText = `This app is using Chrome (v${window.versions.chrome()}), Node.js (v${window.versions.node()}), and Electron (v${window.versions.electron()})`;
-
-// Listen for the app version from main process
+// ✅ Listen for app version from main process
 window.electron.onAppVersion((version) => {
   appVersion.innerText = `🆕 App Version: v${version}`;
 });
 
-// Listen for update events
+// ✅ Listen for update events
 window.electron.onUpdateChecking(() => {
   updateStatus.innerText = "🔍 Checking for updates...";
 });
