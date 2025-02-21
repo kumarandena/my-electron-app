@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "package": "electron-forge package",
     "make": "electron-forge make",
-    "build": "electron-builder --win"
+    "start:dev": "electron .",
+    "build": "electron-builder --win",
+    "publish": "electron-builder --win --publish=always"
   },
   "author": "testauthor",
   "license": "ISC",
@@ -31,6 +33,11 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "license": "license.txt"
+    },
+    "publish": {
+      "provider": "github",
+      "owner": "kumarandena",
+      "repo": "my-electron-app"
     }
   },
   "devDependencies": {
